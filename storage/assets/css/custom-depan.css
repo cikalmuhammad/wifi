@@ -1,0 +1,1721 @@
+/* internet only new */
+
+.paket-inton .card {
+  border: none;
+  box-shadow: 0px 0px 10px 2px #818181;
+  border-radius: 25px !important;
+}
+
+.paket-inton .card-header {
+  background-color: #ffffff;
+  border-bottom: none;
+  color: #1974d2;
+  margin-bottom: -25px;
+  margin-top: 12px;
+  border-radius: 20px;
+}
+
+.paket-inton .card-header .judul-inton {
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+/* .paket-inton .card-body {
+    background-image: linear-gradient(to left, #1974d2 , #24f4a8);
+} */
+
+.paket-inton .card-body .harga-pkt {
+  position: relative;
+  padding: 10px 5px;
+  /* text-align: center; */
+  margin-bottom: 20px;
+  /* background-image: linear-gradient(to left, #1974d2 , #24f4a8); */
+  height: 83px;
+  border-radius: 20px;
+}
+
+.speed-angka {
+  font-size: 24px;
+  position: absolute;
+  font-weight: bold;
+  left: 75px;
+  top: 24px;
+  color: white;
+}
+
+.speed-mbps {
+  top: 39px;
+  position: absolute;
+  font-size: 11px;
+  font-weight: bold;
+  left: 75px;
+  color: white;
+}
+
+.speed-upto {
+  position: absolute;
+  left: 120px;
+  bottom: 47px;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+
+.speed-akhir {
+  position: absolute;
+  font-weight: bold;
+  font-size: 2.4rem;
+  left: 115px;
+  top: 27px;
+  color: white;
+}
+
+.speed-garis hr {
+  position: absolute;
+  width: 30px;
+  border: 2px solid red;
+  top: 28px;
+  left: 72px;
+  rotate: 45deg;
+}
+
+.bnfit-inton {
+  /* align-items: center; */
+  /* text-align: justify; */
+  /* justify-content: center; */
+}
+
+.bnfit-inton .list-group-item .row .col-2 {
+  padding-right: 0;
+}
+
+.bnfit-inton .list-group-item .row .col-6 {
+  padding-left: 0;
+}
+
+.bnfit-inton .list-group-item {
+  border: transparent;
+}
+
+.bnfit-list {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.paket-inton .card-footer {
+  background-color: #ffffff;
+  border-radius: 0px 0px 20px 20px !important;
+}
+
+.inton-harga h4 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #1974d2;
+  text-align: center;
+}
+
+.inton-harga sup {
+  font-size: 1.2rem;
+  margin-right: 2px;
+  font-weight: 600;
+}
+
+.inton-harga span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.inton-harga-promo {
+  color: #1974d2;
+  text-decoration: line-through;
+  font-weight: bold;
+  text-decoration-color: red;
+  margin-bottom: -10px !important;
+}
+
+.inton-harga-promo p {
+  margin-bottom: -10px !important;
+}
+
+.btn-inton {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn-inton-dftr {
+  background-color: #f16101;
+  padding: 10px 50px;
+  border-radius: 17px;
+  border: 2px solid #f16101;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.btn-inton-dftr:hover {
+  background-color: #ffffff;
+  padding: 10px 50px;
+  border-radius: 17px;
+  border: 2px solid #f16101;
+  color: #f16101;
+  font-size: 1rem;
+}
+
+.inton-infinite {
+  background: linear-gradient(to top, #75510bff, #f1b524ff);
+  /* height: 40px; */
+  box-shadow: 0px 0px 10px 2px #818181;
+  border-radius: 15px;
+}
+
+.inton-infinite .row {
+  text-align: center;
+  align-items: center;
+  height: 100px;
+  padding: 7px;
+}
+
+.inton-infinite .name-section {
+  color: #ffffff;
+  border-right: 3px solid #ebebeb;
+}
+
+.inton-infinite .name-section h5 {
+  font-size: 3.4rem;
+  margin-bottom: 0px;
+}
+
+.inton-infinite .spd-section {
+  color: #ffffff;
+  border-right: 3px solid #ebebeb;
+}
+
+.inton-infinite .spd-section p {
+  font-size: 1.3rem;
+  margin-bottom: -15px;
+  right: 80px;
+  position: relative;
+}
+
+.inton-infinite .spd-section h5 {
+  font-size: 3.4rem;
+  margin-bottom: 0px;
+  font-weight: bolder;
+}
+
+.inton-infinite .btn-section {
+  color: #ffffff;
+}
+
+.inton-infinite .btn-section .btn-infinite {
+  background-color: #6c3328ff;
+  padding: 10px 50px;
+  border-radius: 17px;
+  border: 2px solid #6c3328ff;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.inton-infinite .btn-section .btn-infinite:hover {
+  background-color: #ffffff;
+  padding: 10px 50px;
+  border-radius: 17px;
+  border: 2px solid #6c3328ff;
+  color: #6c3328ff;
+  font-size: 1rem;
+}
+
+@media (max-width: 373px) {
+  .bnfit-list {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .benefit-gamer h2 {
+    margin-bottom: 30px !important;
+    font-size: 2rem;
+  }
+
+  .benefit-gamer .img-benefit-gamer img {
+    margin-bottom: 20px;
+  }
+
+  .benefit-fitur {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .benefit-fitur .benefit-fitur-judul {
+    font-size: 1.6rem !important;
+  }
+
+  .benefit-fitur .benefit-fitur-icon img {
+    width: 40px !important;
+  }
+
+  .benefit-fitur .benefit-fitur-deskripsi {
+    font-size: 0.9rem;
+  }
+
+  .list-paket-gamer .pilihan-paket .title-pilihan-paket {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .list-paket-gamer .pilihan-paket .harga-pilihan-paket {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 430px) {
+  .benefit-gamer h2 {
+    margin-bottom: 30px !important;
+    font-size: 2rem;
+  }
+
+  .benefit-gamer .img-benefit-gamer img {
+    margin-bottom: 20px;
+  }
+
+  .benefit-fitur {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .benefit-fitur .benefit-fitur-judul {
+    font-size: 1.6rem !important;
+  }
+
+  .benefit-fitur .benefit-fitur-icon img {
+    width: 40px !important;
+  }
+
+  .benefit-fitur .benefit-fitur-deskripsi {
+    font-size: 1rem;
+  }
+
+  .list-paket-gamer .pilihan-paket .title-pilihan-paket {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .list-paket-gamer .pilihan-paket .harga-pilihan-paket {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 920px) {
+  .list-paket-gamer .pilihan-paket .harga-pilihan-paket {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 921px) and (max-width: 1280px) {
+  .benefit-fitur .benefit-fitur-icon img {
+    width: 50px !important;
+  }
+
+  .benefit-fitur .benefit-fitur-judul {
+    font-size: 25px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .benefit-fitur .benefit-fitur-deskripsi {
+    font-size: 14px !important;
+  }
+
+  .list-paket-gamer p.speed-paket {
+    font-size: 1.9rem !important;
+  }
+
+  .list-paket-gamer .harga-paket-gamer {
+    font-size: 2rem !important;
+  }
+
+  .harga-nol {
+    font-size: 1.2rem !important;
+  }
+
+  .list-paket-gamer .btn-gamer-pilih {
+    padding: 5px 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .inton-infinite .row {
+    text-align: center;
+    align-items: center;
+    height: 200px;
+    padding: 7px;
+  }
+}
+
+/*edit.css custom*/
+
+.inton-header {
+  /* background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../upl/gambar/depan/halaman/kontak_background.jpeg) center center no-repeat; */
+  background: url(../img/paketInternet/page-header-inton.jpg) center center
+    no-repeat;
+  background-size: cover;
+  /*padding-top: 9rem!important;*/
+  /*padding-bottom: 9rem!important;*/
+}
+
+.inton-header .breadcrumb-item + .breadcrumb-item::before {
+  color: #ffffff;
+}
+
+.inton-header h1 {
+  font-weight: bolder;
+}
+
+.inton-header .breadcrumb-item,
+.inton-header .breadcrumb-item a {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.inton-header ul.breadcrumb-items {
+  visibility: hidden !important;
+}
+
+.streamtv-header {
+  /* background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../upl/gambar/depan/halaman/kontak_background.jpeg) center center no-repeat; */
+  background: url(../img/paketInternet/page-header-streamtv.jpg) center center
+    no-repeat;
+  background-size: cover;
+  /*padding-top: 9rem!important;*/
+  /*padding-bottom: 9rem!important;*/
+}
+
+.streamtv-header .breadcrumb-item + .breadcrumb-item::before {
+  color: #ffffff;
+}
+
+.streamtv-header h1 {
+  font-weight: bolder;
+}
+
+.streamtv-header .breadcrumb-item,
+.streamtv-header .breadcrumb-item a {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.streamtv-header ul.breadcrumb-items {
+  visibility: hidden !important;
+}
+
+.paket-inton {
+  padding: 80px 0px 0px 0px;
+}
+
+.paket-inton .caption-inton {
+  text-align: center;
+}
+
+.paket-inton .caption-inton h1 {
+  color: #1974d2;
+  /* font-weight: 900; */
+  font-size: 2.5rem;
+}
+
+.paket-inton .caption-inton p {
+  color: #000000;
+  font-size: 1.1rem;
+}
+
+.list-inton {
+  background-image: url("../img/paketInternet/bg-inton-broadband.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0px 80px 0px;
+}
+
+.card-pl-paket {
+  border-radius: 0 90px 0 0;
+  box-shadow: 10px 7px 17px 3px #a1a1a1;
+}
+
+.card-pl-paket .card-header {
+  background-color: transparent;
+  padding-top: 20px;
+  padding-left: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.card-pl-paket .card-header h5 {
+  font-size: 1.6rem;
+  color: #ffffff;
+  background-color: #1974d2;
+  padding: 10px 20px;
+  text-align: center;
+  width: 200px;
+  margin-bottom: 5px !important;
+}
+
+.card-pl-paket .card-body .speed-angka-inton p {
+  margin-bottom: 0 !important;
+}
+
+.card-pl-paket .card-body p.speed-upto-pl {
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 0 !important;
+}
+
+/* .card-pl-paket .card-body p.speed-upto-pl span{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+} */
+
+.card-pl-paket .card-body p.speed-upto-pl span::before {
+  content: "";
+  position: absolute;
+  top: 105px;
+  /* left: 0; */
+  width: 30px;
+  height: 3px;
+  background-color: red;
+  transform: rotate(324deg);
+  transform-origin: center;
+}
+
+.card-pl-paket .card-body p.speed-angka-pl {
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-bottom: 0 !important;
+  background: linear-gradient(to left, #1e079d, #1974d2);
+  -webkit-background-clip: text;
+  color: transparent;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.card-pl-paket .card-body p.speed-harga-inton {
+  margin-top: 10px;
+  margin-bottom: 0 !important;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.card-pl-paket .card-body p.speed-harga-inton sup {
+  font-size: 1rem;
+}
+
+.card-pl-paket .card-body p.speed-harga-inton span {
+  font-size: 1rem;
+}
+
+.garis-batas {
+  text-align: center;
+}
+
+.centered-hr {
+  width: 330px;
+  border: none;
+  border-top: 2px solid black;
+  margin: 20px auto;
+}
+
+.bnfit-inton {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.list-inton .card-pl-paket .card-footer {
+  background-color: transparent;
+  margin-top: 5px;
+}
+
+.btn-price-list {
+  display: inline-block;
+  padding: 12px 45px;
+  border: 2px solid #1974d2;
+  border-radius: 15px;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  font-size: 19px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #1974d2;
+  font-weight: 800;
+  z-index: 1;
+}
+
+.btn-price-list:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.btn-price-list:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.btn-price-list:hover {
+  color: #1974d2;
+  border: 2px solid #1974d2;
+}
+
+.btn-price-list:hover:before {
+  top: -35%;
+  background-color: #ffffff;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.btn-price-list:hover:after {
+  top: -45%;
+  background-color: #ffffff;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.infinite-snk .inton-infinite h5 {
+  color: #ffffff;
+}
+
+.infinite-snk .headbox-paket {
+  color: white;
+  background-color: #1974d2;
+}
+
+.infinite-snk .card-headbox-paket {
+  margin-bottom: 40px;
+}
+
+.headbox-paket {
+  color: white;
+  background-color: #1974d2;
+}
+
+.list-mnc-pack {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.list-mnc-pack .title-lmp {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.list-mnc-pack .super-lmp {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid 3px #fe792b;
+  border-radius: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.list-mnc-pack .basic-lmp {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid 3px #2d9f90;
+  border-radius: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.add-on-mncp {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.add-on-mncp .title-add-on {
+  color: #000000;
+  margin-bottom: 1.75rem;
+  font-size: 2rem;
+}
+
+.add-on-mncp .title-add-on i {
+  color: #1974d2;
+}
+
+.card-addon {
+  border-radius: 15px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.card-addon .card-header {
+  background-color: transparent;
+  padding: 15px 25px;
+  border-bottom: none;
+}
+
+.card-addon .card-header .addon-title {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 0 !important;
+  background-color: #fe792b;
+  color: #ffffff;
+  padding: 10px 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/*.card-addon .list-group-addon {*/
+/*  border: none;*/
+/*}*/
+
+.card-addon .list-group-addon {
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 25px;
+}
+
+.card-addon ul li {
+  list-style-type: circle;
+}
+
+.card-addon .list-group-addon .list-addon-item {
+  border: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.card-addon .footer-addon {
+  background-color: transparent;
+  border-top: none;
+}
+
+.hr-addon {
+  width: 230px;
+}
+
+.btn-addon {
+  padding: 5px 40px;
+}
+
+.row-addon-1 {
+  min-height: 300px;
+}
+
+.row-addon-2 {
+  min-height: 230px;
+}
+
+.row-addon-3 {
+  min-height: 0px;
+}
+
+.row-addon-4 {
+  min-height: 130px;
+}
+
+.addon-ulti {
+  background-color: #2d9f90 !important;
+}
+
+.benefit-platvid {
+  box-shadow: 0px 0px 17px 0px #464646;
+  border-radius: 20px;
+  padding: 0 15px;
+}
+
+.benefit-platvid .row .col-title-benefit-platvid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefit-platvid .title-benefit-platvid {
+  color: #1974d2;
+  font-weight: 800;
+  font-size: 1.1rem;
+  border: 2px solid #1974d2;
+  padding: 0px 10px;
+  margin-bottom: 0;
+  border-radius: 15px;
+}
+
+.benefit-platvid .title-benefit-platvid p {
+  margin-bottom: 0;
+}
+
+.benefit-platvid .list-benefit-platvid {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 0;
+}
+
+.benefit-platvid .list-benefit-platvid ul {
+  margin-bottom: 0;
+}
+
+.movie-list-platvid {
+  display: flex;
+  padding: 10px 0;
+  scale: 1.1;
+  justify-content: center;
+  align-items: center;
+}
+
+.stv-tab-content {
+  background-image: url(../img/paketInternet/bg-inton-broadband.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* new css */
+
+.breadcrumb-wrapper::before {
+  background: none;
+}
+
+.breadcrumb-wrapper .page-heading .breadcrumb-items li a {
+  color: white;
+}
+
+.breadcrumb-wrapper .page-heading .breadcrumb-items li i {
+  color: white;
+}
+
+.navtab-streamtv .navtab-streamtv-ul {
+  --bs-nav-tabs-border-width: none;
+}
+
+.navtab-streamtv .navtab-streamtv-ul .nav-item-streamtv a.nav-link-streamtv {
+  color: #505050;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.navtab-streamtv
+  .navtab-streamtv-ul
+  .nav-item-streamtv
+  a.nav-link-streamtv.active {
+  color: #1974d2;
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-bottom: 3px solid #1974d2;
+}
+
+.navtab-streamtv
+  .navtab-streamtv-ul
+  .nav-item-streamtv
+  a.nav-link-streamtv:hover {
+  border-bottom: 3px solid #fe792b;
+}
+
+/* paket soho new */
+.paket-soho .card {
+  background: linear-gradient(to left, #1974d2, #1261c3);
+  border-radius: 20px;
+  border: none;
+}
+
+.paket-soho .card .card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0;
+  background-color: transparent;
+  padding: 0;
+}
+
+.paket-soho .card .card-header h5 {
+  background-color: #f05a28;
+  color: white;
+  width: 140px;
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px 25px;
+  border-radius: 20px 0 20px 0;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.paket-soho .card .card-header p {
+  color: #ffffff;
+  position: relative;
+  top: 0;
+  right: 18px;
+}
+
+.paket-soho .card .card-header i {
+  rotate: 90deg;
+}
+
+.paket-soho .card .card-body {
+  padding: 35px 0;
+}
+
+.paket-soho .card .card-body .spd-soho {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+
+.paket-soho .card .card-footer {
+  border-top: 0;
+  background-color: transparent;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.paket-soho .card .card-footer .price-soho {
+  background-color: #ffffff;
+  color: #1974d2;
+  width: 270px;
+  text-align: center;
+  /*margin-top: 10px;*/
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 5px;
+}
+
+.paket-soho .card .card-footer .price-rp {
+  /* font-size: 1rem; */
+}
+
+.paket-soho .card .card-footer .price-bln {
+  font-size: 1.2rem;
+}
+
+.snk-soho .card {
+  border-radius: 20px;
+}
+
+.snk-soho .card .card-header {
+  background: linear-gradient(to left, #1974d2, #1261c3);
+  border-radius: 20px 20px 0 0;
+  color: #ffffff;
+}
+
+.snk-soho .card .card-header .card-title {
+  margin-bottom: 0;
+}
+
+/*.section-padding {*/
+/*    padding: 240px 0;*/
+/*}*/
+
+/*paket gamer*/
+
+.gaming-title {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #6a6a6a;
+}
+
+.benefit-game {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.background-game {
+  background-image: url("/storage/asetnya/upl/gambar/depan/halaman/broadband/gaming-background.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.shadow-game {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  border-radius: 15px;
+  background-color: rgb(255 255 255 / 100%);
+}
+
+.shadow-pktgame {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  border-radius: 0 15px 15px 0;
+  background-color: rgb(255 255 255 / 100%);
+}
+
+.list-benefit {
+  font-size: 1rem;
+  color: black;
+}
+
+.bnft-gaming .card-header {
+  background: #f16101;
+  color: #fff;
+  position: absolute;
+  top: -35px;
+  left: 100px;
+  width: 220px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid #f16101;
+  border-radius: 10px 10px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.bnft-gaming .card {
+  border: none;
+}
+
+.img-gaming {
+  /*border: 2px solid #ffffff;*/
+  /*border-radius: 50px; */
+}
+
+.bnft-gaming .card-body {
+  padding: 20px 20px 20px;
+  min-height: 115px;
+  box-shadow: 5px 10px 15px;
+  border-radius: 100px;
+  border: 2px solid #1974d2;
+  background: #1974d2;
+}
+
+.bnft-gaming .card-text {
+  font-size: 0.9rem;
+  line-height: normal;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.pkt-game {
+  margin-left: -15px;
+}
+
+.pkt-game-bnft .card {
+  border: none;
+  background-color: transparent;
+}
+
+.pkt-game-bnft .card-header {
+  background: #f16101;
+  font-family: "Jersey Sharp", sans-serif;
+  letter-spacing: 1px;
+  color: #fff;
+  position: absolute;
+  top: -35px;
+  left: -15px;
+  width: 220px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid #f16101;
+  border-radius: 10px 10px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.shadow-pktgame .col-lg-3 {
+  margin-right: -31px;
+}
+
+.shadow-pktgame .col-lg-9 {
+  background-color: #1974d2;
+  border-radius: 0 10px 10px 0;
+}
+
+.pkt-game-bnft .card-body {
+  background-color: transparent;
+  margin: -10px 0px;
+}
+
+.gme-btn {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #f16101;
+  outline: none;
+  background-color: #f16101;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 6.5px 27px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  text-transform: uppercase;
+  margin-left: -15px;
+  width: 300px;
+  text-align: center;
+  min-height: 63px;
+}
+
+.gme-btn:hover {
+  background-color: #ffffff;
+  color: #f16101;
+  border: 1px solid #f16101;
+}
+
+.btn-claim-bnft {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #1974d2;
+  outline: none;
+  background-color: #1974d2;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 6.5px 27px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  text-transform: uppercase;
+  margin-left: -15px;
+  width: 500px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.btn-claim-bnft:hover {
+  background-color: #ffffff;
+  color: #1974d2;
+  border: 1px solid #1974d2;
+  border-radius: 5px;
+}
+
+.shadow-pktlain {
+  box-shadow: 0 1rem 3rem rgba(255, 255, 255, 0.151) !important;
+  border-radius: 15px;
+  background-color: #0f1c23;
+  padding: 10px;
+  border: 2px solid #1974d2;
+}
+
+.shadow-pktlain p {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.pktgame-carousel {
+  top: 205px;
+  margin-top: -205px;
+}
+
+.modal-gaming .modal-body {
+  height: 500px;
+}
+
+.note-pkt-gaming {
+  line-height: normal;
+  color: #ffffff;
+}
+
+/*.game-bttn {
+    transition: all 300ms ease-in-out;
+    width: 206px;
+    height: 46px;
+    background-color: #1974d2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 50px;
+    bottom: 45px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7), 0px 3px 10px rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    border: 3px white solid;
+  }
+
+  .game-bttn i {
+    transition: all 300ms ease-in-out;
+    will-change: transform;
+  }*/
+
+/*.game-bttn:before {
+    content: attr(data-tooltip);
+    transition: opacity 150ms cubic-bezier(0.4, 0, 1, 1);
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    color: #ececec;
+    right: 50px;
+    top: 25%;
+    background-color: rgba(70, 70, 70, 0.9);
+    font-size: 0.5em;
+    line-height: 1em;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 2px;
+    padding: 6px 8px;
+    max-width: 200px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+  }*/
+
+/*paket gaming responsive*/
+
+@media (max-width: 532px) {
+  .bnft-gaming {
+    padding: 0 10px;
+  }
+
+  .mrgn-phone {
+    margin-bottom: 3rem;
+  }
+
+  .mrgn-phone1 {
+    margin-bottom: 1rem;
+  }
+
+  .bnft-gaming .col-lg-3 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: -10px;
+  }
+
+  .bnft-gaming .card-header {
+    left: 55px;
+  }
+
+  .bnft-gaming .card-body {
+    border-radius: 50px;
+  }
+
+  .bnft-gaming .card-text {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .shadow-pktgame {
+    background: transparent;
+  }
+
+  .gmbr-pkt-game {
+    margin-bottom: 55px;
+    text-align: center;
+    margin-left: 15px;
+  }
+
+  .btn-claim-bnft {
+    font-size: 18px;
+    width: 300px;
+    margin-left: 5px;
+  }
+
+  .modal-gaming .modal-body {
+    height: 400px;
+  }
+
+  .card-pl-paket .card-header h5 {
+    font-size: 1.4rem;
+    width: 180px;
+  }
+
+  .paket-soho .card .card-body .spd-soho {
+    font-size: 3.5rem;
+  }
+
+  .card-pl-paket .card-body p.speed-angka-pl {
+    font-size: 3.2rem;
+  }
+
+  /*.card-pl-paket .card-body p.speed-harga-inton sup{*/
+  /*    font-size: 0.8rem;*/
+  /*}*/
+
+  /*.card-pl-paket .card-body p.speed-harga-inton {*/
+  /*    font-size: 1.3rem;*/
+  /*}*/
+}
+
+/* Eksklusif Area */
+
+.card-eksklusif-area {
+  border: 3px solid #1974d2;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.card-eksklusif-area .card-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.col-eksklusif-area {
+  margin-top: 2rem;
+}
+
+.card-eksklusif-area .card-body {
+  border-top: 3px solid #1974d2 !important;
+}
+
+.card-eksklusif-area h4 {
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  min-height: 30px;
+}
+
+.card-eksklusif-area p {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #1974d2;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.navtab-ekskluarea .navtab-ekskluarea-ul {
+  --bs-nav-tabs-border-width: none;
+}
+
+.navtab-ekskluarea
+  .navtab-ekskluarea-ul
+  .nav-item-ekskluarea
+  button.nav-link-ekskluarea {
+  color: #505050;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.navtab-ekskluarea
+  .navtab-ekskluarea-ul
+  .nav-item-ekskluarea
+  button.nav-link-ekskluarea.active {
+  color: #1974d2;
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-bottom: 3px solid #1974d2;
+}
+
+.navtab-ekskluarea
+  .navtab-ekskluarea-ul
+  .nav-item-ekskluarea
+  button.nav-link-ekskluarea:hover {
+  border-bottom: 3px solid #fe792b;
+}
+
+input {
+  color: #000000;
+}
+
+input:focus {
+  color: #000000;
+  outline: none;
+}
+
+/* pendaftaran css */
+
+.bg-daftar {
+  background-image: url(../img/bg-daftar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0px 80px 0px;
+}
+
+#pendaftaranForm {
+  padding: 10px 30px;
+  box-shadow: 0px 0px 20px 4px #cdcdcd;
+  background-color: #ffffff;
+  /* box-shadow: 0px 0px 20px 2px #1974d2; */
+  /* background-image: url("../img/daftar-square.jpg"); */
+}
+
+#pendaftaranForm .form-label {
+  color: #000000;
+  font-weight: bold;
+}
+
+#pendaftaranForm .form-check-inline {
+  color: #000000;
+  /* margin-left: 10px; */
+}
+
+#pendaftaranForm sup {
+  color: red;
+}
+
+.dftr-hidden {
+  display: none;
+}
+
+.select2-container {
+  width: 100% !important;
+}
+
+.select2-selection {
+  width: 100% !important;
+}
+
+/* paket gamer */
+
+.gaming-header {
+  /* background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../upl/gambar/depan/halaman/kontak_background.jpeg) center center no-repeat; */
+  /* background: url(../img/paketInternet/page-header-inton.jpg) center center no-repeat; */
+  /* background-size: cover; */
+  /*padding-top: 9rem!important;*/
+  /*padding-bottom: 9rem!important;*/
+  background-color: #0a0f15;
+  background: url(../img/paket-gamer/bg-header-gamer.jpg) center center
+    no-repeat;
+  background-size: cover;
+}
+
+.gaming-header .page-heading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+  text-align: center;
+}
+
+.gaming-header .page-heading .breadcrumb-items {
+  visibility: hidden !important;
+}
+
+.gaming-header .page-heading p {
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.benefit-gamer {
+  padding: 30px 0px;
+  background: url(../img/paket-gamer/bg-benefit.jpg) center center no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(29, 28, 29, 0.5);
+  /* background-size: cover; */
+}
+
+.benefit-gamer h2 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+.gamer-benefit-slider {
+  height: 550px;
+  overflow: hidden;
+  /* padding-bottom: 40px; */
+}
+
+.gamer-benefit-slider .swiper-slide-active .benefit-fitur {
+  border-color: #1974d2;
+}
+
+.benefit-fitur {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 30px;
+  border: 3px solid #ffffff;
+  padding: 30px;
+  gap: 30px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  align-items: center;
+  background-color: #0a0f15;
+}
+
+.benefit-fitur .benefit-fitur-icon img {
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  -webkit-align-self: self-start;
+  -ms-flex-item-align: self-start;
+  align-self: self-start;
+  width: 80px;
+}
+
+.benefit-fitur .benefit-fitur-judul {
+  color: #1974d2;
+  font-size: 30px;
+  margin-top: -0.3em;
+  margin-bottom: 12px;
+}
+
+.benefit-fitur .benefit-fitur-deskripsi {
+  margin-bottom: -0.5em;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.list-paket-gamer {
+  background: url(../img/paket-gamer/bg-list-paket.png) center center no-repeat;
+  background-color: #0a0f15;
+  background-position: initial;
+  background-size: cover;
+  /* background-image: url(../img/paket-gamer/bg-list-paket.png); */
+  /* background-repeat: repeat; */
+}
+
+.list-paket-gamer .pilihan-paket {
+  background-color: #0f1c23;
+  border: 2px solid #1974d2;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.list-paket-gamer h2 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.list-paket-gamer h3.title-paket {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.list-paket-gamer h3.title-paket span {
+  font-family: "KNIGHT WARRIOR", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.list-paket-gamer p.speed-paket {
+  color: #1974d2;
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+
+/* .list-paket-gamer .isi-pilihan-paket {
+  border-left: 1px solid #ffffff;
+} */
+
+.list-paket-gamer .isi-pilihan-paket .card {
+  background-color: transparent;
+  border: none;
+}
+
+.list-paket-gamer .isi-pilihan-paket .card .card-header {
+  color: #ffffff;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.list-paket-gamer .isi-pilihan-paket .card .card-body {
+  color: #ffffff;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.list-paket-gamer .isi-pilihan-paket .card .card-footer {
+  color: #ffffff;
+  border-top: none;
+  padding-top: 0;
+}
+
+.list-paket-gamer .harga-paket-gamer {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.list-paket-gamer .btn-gamer-pilih {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.list-pkt-game {
+  border: 2px solid #1974d2;
+  border-radius: 5px;
+  background-color: transparent;
+  margin: 0px 10px;
+}
+
+.list-pkt-game img {
+  width: 40px;
+}
+
+.list-pkt-game p {
+  font-size: 0.7rem;
+  border-top: 2px solid #1974d2;
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: normal;
+  padding: 10px 0;
+}
+
+.btn-price-infinite {
+  display: inline-block;
+  padding: 12px 45px;
+  border: 2px solid #f1b524ff;
+  /*border-image:linear-gradient(30deg, #FF1200, #FCFF00, #36FF00, #0000FF, #E29000, #0CFFEB);*/
+  border-radius: 15px;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  font-size: 19px;
+  cursor: pointer;
+  color: #ffffff;
+  /*background-color: #1974d2;*/
+  background: linear-gradient(to top, #75510bff, #f1b524ff);
+  font-weight: 800;
+  z-index: 1;
+}
+
+.btn-price-infinite:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.btn-price-infinite:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.btn-price-infinite:hover {
+  color: #f1b524ff;
+  border: 2px solid #f1b524ff;
+}
+
+.btn-price-infinite:hover:before {
+  top: -35%;
+  background-color: #ffffff;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.btn-price-infinite:hover:after {
+  top: -45%;
+  background-color: #ffffff;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.harga-nol {
+  font-size: 1.5rem;
+}
+
+/* redeem paket gamer */
+
+.cara-redeem-video {
+  background: url(../img/cara_redeem/bg-video-redeem.jpg) center center
+    no-repeat;
+  background-color: #0a0f15;
+  background-position: initial;
+  /* background-size: cover; */
+  /* background-image: url(../img/paket-gamer/bg-list-paket.png); */
+  /* background-repeat: repeat; */
+  padding: 60px 10px;
+}
+
+.cara-redeem-images {
+  background: url(../img/paket-gamer/bg-list-paket.png) center center no-repeat;
+  background-color: #0a0f15;
+  background-position: initial;
+  background-size: cover;
+  /* background-image: url(../img/paket-gamer/bg-list-paket.png); */
+  /* background-repeat: repeat; */
+}
+
+.float-icon {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #1974d2;
+  border: 2px dashed #ffffff;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 0px 8px 3px #1974d2;
+  z-index: 100;
+}
+
+.my-float-icon {
+  margin-top: 13px;
+}
